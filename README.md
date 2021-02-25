@@ -1,5 +1,13 @@
 # texformat
-load as subtree
+load as subtree:
+
+```shell
+git subtree add --prefix=https://github.com/jeffreyhingstman/texformat master --squash
+
+git subtree pull --prefix=https://github.com/jeffreyhingstman/texformat master --squash
+```
+
+
 
 ```latex
 \documentclass[a4paper, 12pt]{article}
