@@ -3,7 +3,7 @@ load as subtree
 
 ```latex
 \documentclass[a4paper, 12pt]{article}
-\input{preamble.tex}
+\input{format/preamble.tex}
 
 \begin{document}
 	\title{Format} 
