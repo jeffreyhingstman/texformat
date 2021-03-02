@@ -2,9 +2,11 @@
 load as subtree:
 
 ```shell
-git subtree add --prefix=https://github.com/jeffreyhingstman/texformat master --squash
+git subtree add --prefix=format https://github.com/jeffreyhingstman/texformat master --squash
 
-git subtree pull --prefix=https://github.com/jeffreyhingstman/texformat master --squash
+git subtree pull --prefix=format https://github.com/jeffreyhingstman/texformat master --squash
+
+git subtree push --prefix=format https://github.com/jeffreyhingstman/texformat master --squash
 ```
 
 
