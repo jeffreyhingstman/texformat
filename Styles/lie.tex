@@ -1,4 +1,8 @@
 \newcommand{\liebracket}[2]{\begin{bmatrix}#1, \ #2 \end{bmatrix}}
 \newcommand{\liefunc}[3]{\begin{bmatrix}#1, \ #2 \end{bmatrix}(#3)}
-\newcommand{\liedef}[3]{\frac{\partial #2}{\partial #3}(#3)#1 - \frac{#1}{\partial #3}(#3)#2}
+\newcommand{\liedef}[3]{\frac{\partial #2}{\partial #3}(#3)#1(#3) - \frac{\partial #1}{\partial #3}(#3)#2(#3)}
 \newcommand{\liederiv}[1]{L_{#1}}
+\newcommand{\ad}[1]{\textnormal{ad}_{#1}}
+\newcommand{\algAccess}[1]{\mathcal{C}_a}
+\newcommand{\algStrongAccess}[1]{\mathcal{C}_{sa}}
+\newcommand{\algObs}[1]{\mathcal{O}}
