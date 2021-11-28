@@ -11,12 +11,17 @@
 \usepackage{framed}
 \usepackage{listings}
 \usepackage{subcaption}
+\usepackage{xstring}
+\usepackage{catchfile}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks, linkcolor=red
+}
 
 \usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
 \definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
 \definecolor{mylilas}{RGB}{170,55,241}
-
-
 
 \lstset{language=Matlab,%
 	basicstyle=\small,
@@ -34,3 +39,5 @@
 	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
 	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
 }
+
+
